@@ -1,4 +1,8 @@
 package com.yhf.eshop.common.action;
+
+import com.yhf.eshop.log.dao.ISysLog;
+import com.yhf.eshop.log.dao.impl.consoleLog;
+
 /*
 * 控制器的基类
 * 1、封装请求数据
@@ -8,4 +12,6 @@ package com.yhf.eshop.common.action;
 * 5、返回消息给客户端
 * */
 public class BaseAction {
+    protected ISysLog log = new consoleLog();
+
 }

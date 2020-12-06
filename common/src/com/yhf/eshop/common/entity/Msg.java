@@ -7,8 +7,8 @@ package com.yhf.eshop.common.entity;
 public class Msg {
 
 //    返回状态的 常量
-    private static final String SUCCESS = "成功";
-    private static final String FAIL = "失败";
+    public static final String SUCCESS = "成功";
+    public static final String FAIL = "失败";
 
 //    消息的返回状态码
     private String code;
